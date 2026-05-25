@@ -2,9 +2,138 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        
+        <div class="container">
+          <div class="resume__block">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 20px;">
+              <img class="contact-info__avatar" src="assets/avatar.jpg" alt="Leonid Tkach" />
+              <div>
+                <h1 class="contact-info__header" style="text-align: left; margin-bottom: 5px;">Leonid Tkach</h1>
+                <h3 class="contact-info__sub-header" style="text-align: left; margin-bottom: 0;">Software Developer</h3>
+              </div>
+            </div>
+
+            <div class="contact_info_container fh" style="justify-content: center; gap: 50px;">
+              
+              <div class="contact-info__block">
+                <a href="mailto:leonidt1908@gmail.com" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                  </div>
+                  <span>leonidt1908@gmail.com</span>
+                </a>
+              </div>
+              <div class="contact-info__block">
+                <a href="https://www.linkedin.com/in/leonid-tkach/" target="_blank" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                  </div>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"/></svg>
+              </div>
+              <p class="intro_text">I am a Software Development student passionate about understanding how complex applications work under the hood. While my initial background includes building web projects using React and focusing on web design, my current interests have expanded into Linux, networking, and system architecture. I am driven by the desire to build a comprehensive understanding of system design—from the user interface down to the network layer. Eager to learn, experiment, and grow as an engineer.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">JavaScript, HTML5, CSS3, UI/UX Design, Git, Linux Basics, React, Next.js, Python</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <h3 class="experiences__header">Experience</h3>
+            <div class="main-info fh">
+              
+              <div class="experiences">
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">May 2026 - Present</span>
+                    <h3 class="experiences__company-header-name">Kharkiv IT Cluster (Boot Camp)</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">QA Automation & Manual Tester</span>
+                    <h3 class="experiences__company-project-name">Kyiv Vet Clinic Web Platform</h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Analyzed design documentation to create comprehensive test cases</li>
+                      <li>Executed functional testing and validated interface consistency</li>
+                      <li>Used Postman for API testing and tracked issues in a collaborative sprint environment</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <h3 class="experiences__company-header-name">GatherFlow Team</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">UI/UX Designer & Mobile Developer</span>
+                    <h3 class="experiences__company-project-name">Event Management Platform</h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Designed user experience layouts and core application wireframes</li>
+                      <li>Contributed to the development and structuring of the cross-platform mobile application using React Native</li>
+                      <li>Collaborated within a team environment to ensure consistent feature implementation</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <h3 class="experiences__company-header-name">Engineering Projects</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">Full-Stack Developer</span>
+                    <h3 class="experiences__company-project-name">RacketPong, UrbanCanvas & BioProject</h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Architected and developed full-stack web applications to deepen knowledge of modern tech stacks</li>
+                      <li>Implemented frontend interfaces with React and Next.js, and backend services using Python/FastAPI</li>
+                      <li>Designed database schemas (PostgreSQL, MongoDB) to support application data requirements</li>
+                    </ul>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="hobbies">
+              <h3 class="skills__header" style="text-align: left;">Hobbies & Interests</h3>
+              <p class="skills__text" style="margin-bottom: 10px;"><strong>Table Tennis:</strong> Active player and enthusiast. Whenever I am in a new place and spot a ping-pong table I can play at, it truly motivates me and brings me joy.</p>
+              <p class="skills__text" style="margin-bottom: 10px; line-height: 1.5;"><strong>Reading:</strong> Recently got back into reading. Just finished Herman Hesse's <em>Demian</em> and was deeply moved by it.</p>
+              <p class="skills__text" style="line-height: 1.5;"><strong>Outdoors:</strong> I really enjoy going for walks and spending my free time with active recreation.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
   </body>
 </html>
